@@ -30,6 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d855/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_d855_defconfig
 TARGET_REQUIRES_BUMP := true
+TARGET_GCC_VERSION_ARM := 4.9
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -73,4 +74,4 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # inherit from the proprietary version
--include vendor/lge/d855/BoardConfigVendor.mk
+# -include vendor/lge/d855/BoardConfigVendor.mk
