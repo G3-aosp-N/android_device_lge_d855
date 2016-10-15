@@ -74,4 +74,4 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # inherit from the proprietary version
-# -include vendor/lge/d855/BoardConfigVendor.mk
+-include vendor/lge/d855/BoardConfigVendor.mk
