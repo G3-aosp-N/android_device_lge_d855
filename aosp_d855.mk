@@ -3,6 +3,9 @@ $(call inherit-product, device/lge/d855/full_d855.mk)
 
 PRODUCT_NAME := aosp_d855
 
+# Use our common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
     PRODUCT_NAME="g3_global_com" \
